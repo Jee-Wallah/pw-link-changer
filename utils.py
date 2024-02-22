@@ -31,7 +31,7 @@ async def link_gen(link_hash, bot, event):
             name = await conv.get_response()
             new_link = f"""
 Here is your new link: 
-`/yld https://psitoffers.store/testkey.php?vid={link_hash}&{quality.raw_text} | {name.raw_text}`
+`/yld https://psitoffers.store/testkey.php?vid={link_hash}&{quality=raw_text} | {name.raw_text}`
     """
                         
             await conv.send_message(
