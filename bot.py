@@ -17,7 +17,7 @@ bot = TelegramClient(
 
 )
 
-force_sub_channel = getenv("FORCE_SUB", "my_introvert_world")
+force_sub_channel = getenv("FORCE_SUB", "Insane_updates")
 
 
 @bot.on(events.NewMessage(pattern='/start'))
