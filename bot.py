@@ -38,7 +38,7 @@ async def change(event):
 
     else:
         try:
-            link_hash = event.raw_text.split('=')[3]
+            link_hash = event.raw_text.split('/')[3]
 
         except IndexError as e:
             await event.respond("Invalid url !")
